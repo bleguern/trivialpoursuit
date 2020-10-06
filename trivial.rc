@@ -1,0 +1,124 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// French (France) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_FRA)
+#ifdef _WIN32
+LANGUAGE LANG_FRENCH, SUBLANG_FRENCH
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_INIT DIALOG DISCARDABLE  0, 0, 228, 195
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Trivial Poursuit Init v1.0a - (C) 2003 GummiTeam!"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "Jouer",ID_INIT_LAUNCH,171,145,50,14
+    PUSHBUTTON      "Quitter",ID_INIT_QUIT,171,174,50,14
+    PUSHBUTTON      "Sauvegarder",ID_INIT_SAVE,171,160,50,14
+    PUSHBUTTON      "A propos...",ID_INIT_ABOUT,7,174,50,14
+    COMBOBOX        IDC_INIT_RES,13,30,67,115,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    LTEXT           "Résolution :",IDC_STATIC,14,20,48,8
+    LTEXT           "Bits par pixel :",IDC_STATIC,13,48,53,8
+    COMBOBOX        IDC_INIT_BPP,13,58,43,85,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    CONTROL         "Plein écran",IDC_INIT_FULLSCREEN,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,13,72,52,18
+    CONTROL         "Gouraud Shading",IDC_INIT_GOURAUD,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,13,87,68,14
+    GROUPBOX        "Options graphiques",IDC_STATIC,7,7,91,97
+    GROUPBOX        "Options de jeu",IDC_STATIC,104,7,117,134
+    COMBOBOX        IDC_INIT_NB_PLAYERS,183,18,29,115,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Nombre de joueurs :",IDC_STATIC,113,20,65,13
+    GROUPBOX        "Configuration du joueur",IDC_STATIC,112,36,103,60
+    COMBOBOX        IDC_INIT_PLAYER_ID,167,48,30,115,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Joueur :",IDC_STATIC,133,50,27,13
+    EDITTEXT        IDC_INIT_PLAYER_NAME,118,76,62,12,ES_AUTOHSCROLL
+    LTEXT           "Nom :",IDC_STATIC,118,65,27,8
+    PUSHBUTTON      "OK",IDC_INIT_PLAYER_NAME_OK,185,76,25,12
+    COMBOBOX        IDC_INIT_SEC_TO_ANSWER,112,112,69,82,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Temps de réponse (en s) :",IDC_STATIC,112,101,85,8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_INIT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 221
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 188
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // French (France) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
